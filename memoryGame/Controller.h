@@ -44,6 +44,8 @@ class Controller {
 
   /// Function that reads states of the buttons and ends the game if incorrect button
   /// is pressed. Also displays current progress on LCD
+  /// \param progress is responsible for tracking how many more buttons need to be pressed
+  /// \param PressedWrongButton is responsible for finishing game earlier when wrong button was pressed
   void ReadStatesOfTheButtons(int &progress, bool &PressedWrongButton);
 
   /// Function that shows current round progress on LCD
@@ -51,6 +53,7 @@ class Controller {
   
   /// Function is responsible for playing game tones on buzzer and
   /// turning on and off LED's
+  /// \param index is responsible for turning on respective LED
   void PlayGameTone(int index);
 
   /// Function is responsible for playing 4 tones in sequence
@@ -78,11 +81,9 @@ class Controller {
   Controller(const int Leds[], const uint8_t Buttons[], uint8_t Buzzer, 
   uint8_t numInputs, const int Tones[], LiquidCrystal &lcdRef);
   
-  void Begin();
+  void InitializePins();
   void Update();
 };
-
-
 
 
 

@@ -14,7 +14,7 @@ buzzerPin(Buzzer), numInputs(numInputs), tones(Tones), lcd(lcdRef)
 }
 
 template <size_t SeqLen>  
-void Controller<SeqLen>::Begin()
+void Controller<SeqLen>::InitializePins()
 {
   pinMode(buzzerPin, OUTPUT);
   for(int i = 0; i < numInputs; i++)
