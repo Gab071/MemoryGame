@@ -14,7 +14,7 @@ I wanted to create an interesting game by using Arduino board programmed in C++ 
 1. **Start the Game**: Once the code is running and all components are connected, the LCD display will prompt you to start (press the blue switch).
 2. **Watch and Listen**: Game will generate a random sequence of blinking LEDs accompanied by buzzer tones.
 3. **Repeat the Pattern**: Repeat the exact sequence by pressing the corresponding buttons in the correct order.
-4. **Another Round** Each successful attempt adds one new ste to the sequence. 
+4. **Another Round** Each successful attempt adds one new step to the sequence. 
 5. **Victory or Game Over**: 
 * **Victory**: Completing all rounds displays a victory message on LCD accompanied by a winning melody.
 
