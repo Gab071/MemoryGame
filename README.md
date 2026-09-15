@@ -75,7 +75,7 @@ If you are using an LCD module other than the HD44780, make sure to check whethe
 | (Green) Button | 4 | button next to the green LED |
 | Buzzer | 2 | button responsible for the start of the reaction test |
 
-Note: Remember to connect power (5V and GND) to the outer pins of the potentiometer so that it functions properly as a voltage divider for the LCD contrast. Since all digital pins were in use, three of the LEDs were connected to analog input pins.
+Note: Remember to connect power (5V and GND) to the outer pins of the potentiometer so that it functions properly as a voltage divider for the LCD contrast. Since all digital pins were in use, three of the LEDs were connected to analog input pins (ADC pins).
 
 ## How to Run
 
