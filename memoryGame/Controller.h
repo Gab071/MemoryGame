@@ -65,7 +65,7 @@ class Controller {
   void PlayErrorTone();
 
   /// Plays after succsesfull guess of the current sequence
-  void PlayCoinSound();
+  void PlayCorrectSequenceTone();
   
   // Function that plays a victory tone if player won all rounds 
   void PlayVictoryTone();   

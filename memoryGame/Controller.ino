@@ -127,7 +127,7 @@ void Controller<SeqLen>::TypeInCurrentSequence(bool &PressedWrongButton)
 
   if(mode == GameContinues)
   {
-      PlayCoinSound();
+      PlayCorrectSequenceTone();
   }
 }
 
@@ -211,16 +211,14 @@ void Controller<SeqLen>::PlayErrorTone()
 }
 
 template <size_t SeqLen>
-void Controller<SeqLen>::PlayCoinSound() 
+void Controller<SeqLen>::PlayCorrectSequenceTone() 
 {
-  ChangeStateOfDiodes(HIGH);
-  tone(buzzerPin, NOTE_B5, 100);
-  delay(100); 
+  tone(buzzerPin, NOTE_C5, 75);
+  delay(200);
 
-  tone(buzzerPin, NOTE_E6, 400);
-  delay(400);
+  tone(buzzerPin, NOTE_G5, 125);
+  delay(150);
 
-  ChangeStateOfDiodes(LOW);
   noTone(buzzerPin);
 }
 
