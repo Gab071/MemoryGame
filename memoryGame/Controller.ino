@@ -257,9 +257,9 @@ void Controller<SeqLen>::RestartGame()
 {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Press blue swi-"); // I know that switch has 1 syllable 
+  lcd.print("To start press"); 
   lcd.setCursor(0, 1);
-  lcd.print("tch to restart");
+  lcd.print("blue switch");
   while(mode == GameOver)
   {
     if(digitalRead(buttonPins[0]) == LOW)
