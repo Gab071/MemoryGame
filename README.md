@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Hardware Components](#hardware-components)
-3. [Pin Mapping](#pin-mapping)
-4. [How to Run](#how-to-run)
-5. [Additional Notes](#additional-notes)
+1. [Overview](#1-overview)
+2. [Hardware Components](#2-hardware-components)
+3. [Pin Mapping](#3-pin-mapping)
+4. [How to Run](#4-how-to-run)
+5. [Additional Notes](#5-additional-notes)
 
 ## 1. Overview
 
