@@ -8,7 +8,7 @@
 4. [How to Run](#how-to-run)
 5. [Additional Notes](#additional-notes)
 
-## Overview
+## 1. Overview
 
 I wanted to create an interesting game by using Arduino board programmed in C++ (via Arduino IDE). The final result was a memory game also known as "Simon says". How to play: 
 1. **Start the Game**: Once the code is running and all components are connected, the LCD display will prompt you to start (press the blue switch).
@@ -23,7 +23,7 @@ I wanted to create an interesting game by using Arduino board programmed in C++ 
 To repeat the game press the switch again.   
     
 
-## Hardware Components
+## 2. Hardware Components
 
 | Component | Quantity | Comments |
 | ---- | ----- | ----- |
@@ -41,7 +41,7 @@ To repeat the game press the switch again.
 | Jumper wires | - | - |
 
 
-## Pin Mapping 
+## 3. Pin Mapping 
 
 The LCD pins are listed in physical order (from left to right on the display module). 
 
@@ -77,7 +77,7 @@ If you are using an LCD module other than the HD44780, make sure to check whethe
 
 Note: Remember to connect power (5V and GND) to the outer pins of the potentiometer so that it functions properly as a voltage divider for the LCD contrast. Since all digital pins were in use, three of the LEDs were connected to analog input pins (ADC pins).
 
-## How to Run
+## 4. How to Run
 
 ### Step 1
 
@@ -91,7 +91,7 @@ Connect all components according to the pin mapping above.
 
 Connect your board to the PC. Upload and run the code. 
 
-## Additional Notes
+## 5. Additional Notes
 
 * It is possible to play more rounds than currently is set. You just have to change the value called *Sequence Length*:
 
